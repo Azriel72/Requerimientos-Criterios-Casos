@@ -90,7 +90,6 @@ Casos de Prueba Unitarios (Caja Blanca - Código):
         Salida Esperada: Mensaje de error: "Número fuera de rango. Por favor, ingrese un número entre 1 y 3999."
 
 Casos de Prueba End-To-End (Desde el UI):
-(Estos casos de prueba deben simular interacciones del usuario desde la interfaz de consola)
 
     Prueba de Conversión Correcta
         Entrada: 50
