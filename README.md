@@ -98,3 +98,15 @@ Casos de Prueba End-To-End (Desde el UI):
     Prueba de Entrada Inválida
         Entrada: -5
         Salida Esperada: Mensaje de error en la interfaz: "Entrada no válida. Por favor, ingrese un número entero positivo."
+
+    Prueba de conversión de 1000 a número romano:
+        Entrada: 1000
+        Salida esperada: M
+
+    Prueba de conversión de -10 a número romano (entrada negativa):
+        Entrada: -10
+        Salida esperada: Error: Entrada no válida
+
+    Prueba de conversión de 4000 a número romano (valor fuera de rango):
+        Entrada: 4000
+        Salida esperada: Error: Fuera de rango
