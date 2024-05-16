@@ -96,8 +96,8 @@ Casos de Prueba End-To-End (Desde el UI):
         Salida Esperada: L
 
     Prueba de Entrada Inválida
-        Entrada: -5
-        Salida Esperada: Mensaje de error en la interfaz: "Entrada no válida. Por favor, ingrese un número entero positivo."
+        Entrada: E
+        Salida Esperada: Mensaje de error en la interfaz: "Debe introducir un número decimal entero"
 
     Prueba de conversión de 1000 a número romano:
         Entrada: 1000
@@ -105,8 +105,8 @@ Casos de Prueba End-To-End (Desde el UI):
 
     Prueba de conversión de -10 a número romano (entrada negativa):
         Entrada: -10
-        Salida esperada: Error: Entrada no válida
-
+        Salida esperada: Error: El número debe ser mayor que 0 y menor que 4000.
+        
     Prueba de conversión de 4000 a número romano (valor fuera de rango):
         Entrada: 4000
-        Salida esperada: Error: Fuera de rango
+        Salida esperada: Error: "El número debe ser mayor que 0 y menor que 4000."
